@@ -12,4 +12,10 @@ def subtract(first_term, second_term):
 
 
 def app():
-    print(f"This is {CONFIG['APP_NAME']}. Let's build some cool python apps!")
+    name = f"This is {CONFIG['APP_NAME']}"
+    print(name)
+    return name
+
+
+if __name__ == "__main__":
+    app()

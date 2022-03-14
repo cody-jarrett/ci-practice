@@ -1,6 +1,10 @@
 from ci_practice import __version__, main
 
 
+def test_name():
+    assert "This is ci-practice" == main.app()
+
+
 def test_version():
     assert __version__ == "0.2.0"
 
